@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://your mysql server's IP/atm?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: your username
+    password: your password
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    show-sql: true
